@@ -9,6 +9,7 @@ if($productCount > 0){
 	while($row = mysqli_fetch_array($sql)){
 		$id = $row["id"];
 		$product_name = $row["product_name"];
+		$price = $row["price"];
 		$date_added = date("Y/m/d", strtotime($row["date_added"]));
 		$dynamicList .= '<table width="100%" border="0" cellspacing="0" cellpadding="6">
         <tr>
