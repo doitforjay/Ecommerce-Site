@@ -138,7 +138,7 @@ if($productCount > 0){
 		<tr>
 		<td>Product Image</td>
 		<td><label>
-			<input type="text" name="fileField" id="fileField"/>
+			<input type="file" name="fileField" id="fileField"/>
 		</label></td>
 	</tr>
 	<tr>

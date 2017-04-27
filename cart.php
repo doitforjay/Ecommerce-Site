@@ -60,7 +60,7 @@ if(!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"])<1){
 			$details = $row['details'];
 		}
 		$priceTot = $price * $each_item['quantity'];
-		$cartTotal = $cartTotal + $priceTot;
+		$cartTotal = $priceTot + $cartTotal;
 
 		// $cartOutput .= "<tr>";
 		// $cartOutput .= "<td>". $product_name."<td/>";
