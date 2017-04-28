@@ -44,3 +44,7 @@ body{
 	background-image: url("../Blue.jpg");
 	margin: 4%;
 }
+#middle{
+	 border-style: solid;
+    border-width: medium;
+}
