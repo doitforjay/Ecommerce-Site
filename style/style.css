@@ -5,10 +5,6 @@
 #main {
 font-size: 25px;
 font-family: "Times New Roman", Times, serif;
-<<<<<<< HEAD
-background-image: url("../Blue.jpg");
-=======
->>>>>>> 7c66ce6c4fb6d339bbf89fa18f6d3827406fe1d8
 }
 
 #footer {
@@ -95,13 +91,9 @@ body{
     background-color: #f44336;
     color: white;
 }
-a:hover{
-<<<<<<< HEAD
-	color: 
-}
-=======
-		color : rgb(25,181,254);
+a:hover { 
+
+		color: rgb(25,181,254);
 		font-weight: 900;
  		text-decoration: none;
 }
->>>>>>> 467d8bfb9ef1167ce2d7cc6d383a6513ef755693
