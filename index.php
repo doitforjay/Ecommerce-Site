@@ -32,8 +32,10 @@ if($productCount > 0){
 	<title></title>
 </head>
 <body>
+<p>Free shipping on order over $50</p>
 <div align="center" id="wrapper">
 	<?php include_once("header.php"); ?>
+	<h3 id="shadow1"> Limited time only:Free Shipping</h3>
 	<div id="main">
 		<table width="100%" border='0' cellpadding="10">
 			<tr>

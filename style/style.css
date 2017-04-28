@@ -5,7 +5,6 @@
 #main {
 font-size: 25px;
 font-family: "Times New Roman", Times, serif;
-background-image: ("Blue.jpg")
 }
 
 #footer {
@@ -38,4 +37,8 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+body{
+	background-image: url("../Blue.jpg");
+	margin: 4%;
 }

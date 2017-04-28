@@ -16,6 +16,6 @@
 			</ul>
 		</tr>
 		</table>
-		<h3 id="shadow1"> Limited time only:Free Shipping</h3>
+		
 	</div>
 
