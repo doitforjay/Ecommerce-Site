@@ -51,6 +51,8 @@ if($productCount > 0){
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
+<p id="name">HAJ Clothing Store</p>
+<p>Free shipping on order over $50</p>
 <?php include_once("header.php"); ?>
 <div>
 <?php echo $dynamicTable ?></p>

@@ -107,7 +107,8 @@ if(!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"])<1){
 	<title></title>
 </head>
 <body>
-
+<p id="name">HAJ Clothing Store</p>
+<p>Free shipping on order over $50</p>
 <div align="center" id="Wrapper">
 	<?php include_once("header.php");?>
 	<div id="main">
