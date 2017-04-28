@@ -44,7 +44,7 @@ li a:hover {
     background-color: #111;
 }
 body{
-	background-color: rgb(162,222,208);
+	background-color: rgba(162,222,208,0.5);
 
 	margin: 4%;
 }
