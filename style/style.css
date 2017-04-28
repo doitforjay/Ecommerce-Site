@@ -5,16 +5,24 @@
 #main {
 font-size: 25px;
 font-family: "Times New Roman", Times, serif;
+<<<<<<< HEAD
 background-image: url("../Blue.jpg");
+=======
+>>>>>>> 7c66ce6c4fb6d339bbf89fa18f6d3827406fe1d8
 }
 
 #footer {
-	
-}
 
+}
+#wrapper{
+	background color: lightgrey;
+}
 #shadow1{
-text-align: center; 
+text-align: center;
     background-color:lightgrey;
+}
+#quote{
+	    font-style: italic;
 }
 ul {
     list-style-type: none;
@@ -39,3 +47,61 @@ li a {
 li a:hover {
     background-color: #111;
 }
+body{
+	background-color: rgb(255,218,185);
+
+	margin: 4%;
+}
+#middle{
+	 border-style: solid;
+    border-width: medium;
+}
+#win{
+	border-style: solid;
+    border-width: medium;
+	text-align: center;
+}
+#end{
+	float: right;
+	border-style: groove;
+	font-size: 45px;
+	text-align: center;
+
+
+}
+#extra{
+	margin:5%;
+	text-align: left;
+}
+#button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+ #button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #f44336;
+}
+
+#button3:hover
+ {
+    background-color: #f44336;
+    color: white;
+}
+a:hover{
+<<<<<<< HEAD
+	color: 
+}
+=======
+		color : rgb(25,181,254);
+		font-weight: 900;
+ 		text-decoration: none;
+}
+>>>>>>> 467d8bfb9ef1167ce2d7cc6d383a6513ef755693

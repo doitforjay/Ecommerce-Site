@@ -103,6 +103,7 @@ if(!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"])<1){
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="style/style.css">
 	<title></title>
 </head>
 <body>

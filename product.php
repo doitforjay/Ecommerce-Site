@@ -37,6 +37,7 @@ mysqli_close($conn);
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="style/style.css">
 	<title>$prduct_name</title>
 </head>
 <body>

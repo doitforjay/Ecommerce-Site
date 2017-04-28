@@ -74,6 +74,7 @@ if($productCount > 0){
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="style/style.css">
 	<title> inv List</title>
 </head>
 <body>
