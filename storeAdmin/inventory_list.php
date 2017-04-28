@@ -112,9 +112,8 @@ if($productCount > 0){
 		<td>Category</td>
 		<td><label>
 			<select name="category" id="category">
-				<option value=""></option>
-				<option value="Clothing">Clothing</option>
-				<option value="Electronics">Electronics</option>
+				<option value="Boys">Boys</option>
+				<option value="Girls">Girls</option>
 			</select>
 		</label></td>
 	</tr>
@@ -125,6 +124,8 @@ if($productCount > 0){
 				<option value="Hats">Hats</option>
 				<option value="Pants">Pants</option>
 				<option value="Shirts">Shirts</option>
+				<option value="Dresses">dresses</option>
+				<option value="Shorts">Shorts</option>
 			</select>
 		</td>
 	</tr>

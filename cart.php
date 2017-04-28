@@ -13,7 +13,7 @@ if(isset($_POST['pid'])){
 	$i = 0;
 	//if cart is not set
 	if(!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"])<1){
-		$_SESSION["cart_array"]=array(1 => array("item_id" => $pid, "quantity" => 1));
+		$_SESSION["cart_array"]=array(0 => array("item_id" => $pid, "quantity" => 1));
 
 	} else {
 		//add an existing item in cart and increament quantity
@@ -42,6 +42,20 @@ if(isset($_POST['pid'])){
 	}
 ?>
 
+
+<?php
+if(isset($_POST['index_to_remove']) && $_POST['index_to_remove']!=""){
+	$key_to_remove = $_POST['index_to_remove'];
+
+	if(count($_SESSION["cart_array"])<=1){
+		unset($_SESSION["cart_array"]);
+	}else{
+		unset($_SESSION["cart_array"]["$key_to_remove"]);
+		sort($_SESSION["cart_array"]);
+	}
+}
+?>
+
 <?php 
 //render the cart for viewing
 $cartOutput ="";
@@ -51,7 +65,7 @@ if(!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"])<1){
 }else{
 	$i = 0;
 	foreach($_SESSION["cart_array"] as $each_item){
-		$i++;
+		
 		$item_id = $each_item['item_id'];
 		$sql = mysqli_query($conn, "SELECT * FROM products WHERE id='$item_id' LIMIT 1");
 		while ($row = mysqli_fetch_array($sql)) {
@@ -76,11 +90,12 @@ if(!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"])<1){
         <td>$". $price."</td>
         <td>". $each_item['quantity']."</td>
         <td>". $priceTot ."</td>
-        <td><form action='cart.php' method='post'><input name='deleteBn".$item_id."'type='submit' value='X'/><input name='id_to_remove' type='hidden' value='XXXX'></form></td>
+        <td><form action='cart.php' method='post'><input name='deleteBn".$item_id."'type='submit' value='X'/><input name='index_to_remove' type='hidden' value='".$i."'></form></td>
       </tr>";
 		
-		$cartTotal = "Cart Total: $". $cartTotal;
+		$i++;
 	}
+	$cartTotal = "Cart Total: $". $cartTotal;
 }
 
 
