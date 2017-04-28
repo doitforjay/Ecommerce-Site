@@ -141,7 +141,7 @@ if($productCount > 0){
 				<option value="Hats">Hats</option>
 				<option value="Pants">Pants</option>
 				<option value="Shirts">Shirts</option>
-				<option value="Dresses">dresses</option>
+				<option value="Dresses">Dresses</option>
 				<option value="Shorts">Shorts</option>
 			</select>
 		</td>
