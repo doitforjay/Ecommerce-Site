@@ -39,11 +39,9 @@ if($productCount > 0){
 	<div id="main">
 		<table width="100%" border='0' cellpadding="10">
 			<tr>
-			 <td width="32%" valign="top"><h3>What the Hell?</h3>
-      <p>This website <br/>
-      <p>It is not<br />
-        <br />
-        This </p>
+			 <td width="32%" valign="top"><h2>Limited Time: In Store & Online </h2>
+      <p>Our most covetable tees, tanks, polos, and more, featuring irresistible patterns and prints and eye-catching details. Wear them your way. Break the rules. Be you. <br/>
+      <p>Select styles. Prices as marked.</p>
         </td>
 		<td width="53%" valign="top">Newest  items added<p><?php echo $dynamicList ?></p>
 		</td>
@@ -59,6 +57,12 @@ if($productCount > 0){
 				</td> -->
 	</div>
 	<?php include_once("header.php"); ?>
+	<p align="center">There's always that one summer that changes everything.</p>
+	<p align="center">MAKE THIS THAT SUMMER</p>
+	<p align="center">by winning 1 of 4 summer-defining grand prizes!</p>
+	<p>YOU CHANCE TO WIN <br>
+	CONCERT TICKETS </br></p>
+	<p>FOR TWO </p>
 </div>
 </body>
 </html>
