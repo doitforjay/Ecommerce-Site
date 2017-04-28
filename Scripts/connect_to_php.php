@@ -2,11 +2,13 @@
 //db hostname
 $db_host = "localhost:8889";
 //user usernam
-$db_user = "admin";
+$db_user = "root";
 //user password
-$db_pass = "admin";
+$db_pass = "root";
 //name of db
 $db_name = "inventory";
+$port = 3306;
+
 
 //run connection
 $conn = mysqli_connect("$db_host:8889", "$db_user", "$db_pass","$db_name");

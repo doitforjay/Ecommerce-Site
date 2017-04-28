@@ -6,7 +6,17 @@
 			<td width="68%" align="right"><a href="cart.php">Your Cart</a></td>
 		</tr>
 		<tr>
-			<td colspan="2"><a href="index.php">Home</a>&nbsp;&nbsp;<a href="#">Link 1</a>&nbsp;&nbsp;<a href="#">Link 2</a>&nbsp;&nbsp;<a href="#">link 3</a></td>
+		<ul>
+			<td colspan="2">
+			 <ul>
+  <li><a class="active" href="index.php">Home</a></li>
+  <li><a href="#link">Link1</a></li>
+  <li><a href="#link2">Link2</a></li>
+  <li><a href="#link3">Link3</a></li>
+</ul></td>
+			</ul>
 		</tr>
 		</table>
+		<h3 id="shadow1"> Limited time only:Free Shipping</h3>
 	</div>
+
