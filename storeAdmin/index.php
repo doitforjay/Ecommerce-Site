@@ -23,6 +23,7 @@ if($existCount == 0){
 <html>
 <head>
 	<title>store admin</title>
+	
 </head>
 <body>
 <div align="center" id="wrapper">

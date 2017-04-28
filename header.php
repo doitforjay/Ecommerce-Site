@@ -10,9 +10,9 @@
 			<td colspan="2">
 			 <ul>
   <li><a class="active" href="index.php">Home</a></li>
-  <li><a href="#link">Link1</a></li>
-  <li><a href="#link2">Link2</a></li>
-  <li><a href="#link3">Link3</a></li>
+  <li><a href="product_list.php">Products</a></li>
+  <li><a href="#link2">Contact</a></li>
+  <li><a href="#link3">Help</a></li>
 </ul></td>
 			</ul>
 		</tr>

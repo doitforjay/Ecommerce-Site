@@ -95,7 +95,7 @@ if(!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"])<1){
 		
 		$i++;
 	}
-	$cartTotal = "Cart Total: $". $cartTotal;
+	$cartTotal = "<div style='font-size:18px; margin-top:12px;' align='right'>Cart Total : ".$cartTotal." USD</div>";
 }
 
 
