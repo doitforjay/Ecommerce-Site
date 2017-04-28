@@ -41,7 +41,8 @@ li a:hover {
     background-color: #111;
 }
 body{
-	background-image: url("../Blue.jpg");
+	background-color: 67809F;
+	
 	margin: 4%;
 }
 #middle{
@@ -51,6 +52,5 @@ body{
 #win{
 	border-style: solid;
     border-width: medium;
-	background-image: url("../coachella.jpg");
 	text-align: center;
 }
