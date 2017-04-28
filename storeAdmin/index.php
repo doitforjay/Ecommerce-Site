@@ -25,7 +25,7 @@ if($existCount == 0){
 	<link rel="stylesheet" type="text/css" href="../style/style.css">
 
 	<title>store admin</title>
-	
+	<p id="name">HAJ Clothing Store</p>
 </head>
 <body>
 <div align="center" id="wrapper">
