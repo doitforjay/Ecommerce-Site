@@ -38,6 +38,7 @@ if(isset($_POST["username"])&&isset($_POST["password"])){
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="style/style.css">
 	<title>store admin</title>
 </head>
 <body>

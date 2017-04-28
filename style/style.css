@@ -10,7 +10,9 @@ font-family: "Times New Roman", Times, serif;
 #footer {
 	
 }
-
+#wrapper{
+	background color: lightgrey;
+}
 #shadow1{
 text-align: center; 
     background-color:lightgrey;
