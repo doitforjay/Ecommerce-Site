@@ -33,7 +33,7 @@ if($productCount > 0){
 </head>
 <body>
 <p id="name">HAJ Clothing Store</p>
-<p>Free shipping on order over $50</p>
+<h3 id="shadow1"> All Shorts BOGO 50% Off</h3>
 <div align="center" id="wrapper">
 	<?php include_once("header.php"); ?>
 	<h3 id="shadow1"> Limited time only:Free Shipping</h3>
@@ -69,6 +69,7 @@ if($productCount > 0){
 	<p>YOU CHANCE TO WIN <br>
 	CONCERT TICKETS </br></p>
 	<p>FOR TWO </p>
+<p>*NO PURCHASE NECESSARY TO ENTER OR WIN. Must be 14 or older and a resident of the U.S. Void where prohibited. The Quikly will have four (4) Sweepstakes Periods between 4/26/2017 and 5/28/2017. To participate, you must opt in before the Quikly goes live for each Sweepstakes Period. Total ARV value of all prizes: USD $8,400. For full rules, odds, and details on how the Quikly works, visit: http://bit.ly/HCoSummerRules. Sponsor: Abercrombie & Fitch Stores, Inc., 6301 Fitch Path, New Albany, OH 43054.</p>
 
 </div>
 <p id="end">ORDER ONLINE<br> & PICK UP IN STORE<br>
