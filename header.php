@@ -4,10 +4,7 @@
 			<td width="32%"><a href="index.php"><img src="" alt="logo" width="250" height="36" border="0">
 			<td width="68%">&nbsp;</td>
 			<td width="68%" align="right"><a href="cart.php">Your Cart</a></td>
-        <button type="button" class="btn btn-default btn-sm">
-          <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
-        </button>
-      </p>
+   
 		</tr>
 		<tr>
 		<ul>
