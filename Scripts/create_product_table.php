@@ -1,5 +1,9 @@
 <?php
+<<<<<<< HEAD
 require "connect_to_php.php";
+=======
+require"connect_to_php.php";
+>>>>>>> 855968097661e1d7299a78fb9eb695d8a9256641
 $sql = "CREATE TABLE products ( 
  id int(11) NOT NULL auto_increment, 
  product_name varchar(225) NOT NULL, 
