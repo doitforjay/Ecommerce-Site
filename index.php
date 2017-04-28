@@ -57,6 +57,10 @@ if($productCount > 0){
 				</td> -->
 	</div>
 	<?php include_once("header.php"); ?>
+	<h3><p align="center">IN STORES & ONLINE<br>
+40% OFF FUN-IN-THE-SUN STYLES</br></p></h3>
+
+
 	<p align="center">There's always that one summer that changes everything.</p>
 	<p align="center">MAKE THIS THAT SUMMER</p>
 	<p align="center">by winning 1 of 4 summer-defining grand prizes!</p>
