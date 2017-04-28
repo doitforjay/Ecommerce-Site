@@ -65,6 +65,10 @@ body{
 
 
 }
+#name{
+	text-align: center;
+	font-size: 60px;
+}
 #extra{
 	margin:5%;
 	text-align: left;
