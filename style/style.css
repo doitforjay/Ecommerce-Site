@@ -17,6 +17,9 @@ font-family: "Times New Roman", Times, serif;
 text-align: center; 
     background-color:lightgrey;
 }
+#quote{
+	    font-style: italic;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -87,4 +90,7 @@ body{
  {
     background-color: #f44336;
     color: white;
+}
+a:hover{
+	color: 
 }

@@ -39,9 +39,10 @@ if($productCount > 0){
 	<div id="main">
 		<table width="100%" border='0' cellpadding="10">
 			<tr>
-			 <td width="32%" valign="top"><h2>Limited Time: In Store & Online </h2>
-      <p>Our most covetable tees, tanks, polos, and more, featuring irresistible patterns and prints and eye-catching details. Wear them your way. Break the rules. Be you. <br/>
-      <p>Select styles. Prices as marked.</p>
+			 <td width="32%" valign="top">
+			 <h5 align="center">Limited Time: In Store & Online </h5>
+      <h4><p id="quote">Our most covetable tees, tanks, polos, and more, featuring irresistible patterns and prints and eye-catching details. Wear them your way. Break the rules. Be you. <br/>
+      <h6><p align="center">Select styles. Prices as marked.</p></h6>
         </td>
 		<td width="53%" valign="top">Newest  items added<p><?php echo $dynamicList ?></p>
 		</td>
