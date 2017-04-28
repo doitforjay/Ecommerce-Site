@@ -48,3 +48,9 @@ body{
 	 border-style: solid;
     border-width: medium;
 }
+#win{
+	border-style: solid;
+    border-width: medium;
+	background-image: url("../coachella.jpg");
+	text-align: center;
+}

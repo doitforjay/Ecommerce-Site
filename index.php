@@ -59,18 +59,18 @@ if($productCount > 0){
 	<?php include_once("header.php"); ?>
 	<h3 id="middle"><p align="center">IN STORES & ONLINE<br>
 40% OFF FUN-IN-THE-SUN STYLES</br></p></h3>
-
-
-	<p align="center">There's always that one summer that changes everything.</p>
-	<p align="center">MAKE THIS THAT SUMMER</p>
-	<p align="center">by winning 1 of 4 summer-defining grand prizes!</p>
+</div>
+<div id="win">
+	<p>There's always that one summer that changes everything.</p>
+	<p>MAKE THIS THAT SUMMER</p>
+	<p>by winning 1 of 4 summer-defining grand prizes!</p>
 	<p>YOU CHANCE TO WIN <br>
 	CONCERT TICKETS </br></p>
 	<p>FOR TWO </p>
 
 </div>
 <div>
-	<p>NEED HELP?</p>
+	<p>NEED HELP?</p> 
 	<p>SIZE CHARTS</p>
 	<p>ORDER HELP</p>
 	<p>SHIPPING & HANDLING</p>
@@ -79,7 +79,7 @@ if($productCount > 0){
 	<p>GIFT CARDS & MERCHANDISE CREDIT</p>
 	<p>CUSTOMER SERVICE</p>
 	<p>STUDENT DISCOUNT</p>
-	
 </div>
+
 </body>
 </html>
