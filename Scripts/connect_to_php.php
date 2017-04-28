@@ -1,17 +1,17 @@
 <?php 
 //db hostname
-$db_host = "localhost:8889";
+$db_host = "localhost";
 //user usernam
-$db_user = "root";
+$db_user = "hpatel106";
 //user password
-$db_pass = "root";
+$db_pass = "hpatel106";
 //name of db
-$db_name = "inventory";
+$db_name = "hpatel106";
 $port = 3306;
 
 
 //run connection
-$conn = mysqli_connect("$db_host:8889", "$db_user", "$db_pass","$db_name");
+$conn = mysqli_connect("$db_host", "$db_user", "$db_pass","$db_name");
 
 //mysql_connect("$db_host", "$db_user", "$db_pass") or die ("could not connect"); //die exits scripts
 //mysql_select_db("$db_name");
