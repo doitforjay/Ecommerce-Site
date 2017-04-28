@@ -63,6 +63,19 @@ if($productCount > 0){
 	<p>YOU CHANCE TO WIN <br>
 	CONCERT TICKETS </br></p>
 	<p>FOR TWO </p>
+
+</div>
+<div>
+	<p>NEED HELP?</p>
+	<p>SIZE CHARTS</p>
+	<p>ORDER HELP</p>
+	<p>SHIPPING & HANDLING</p>
+	<p>RETURN & EXCHANGES</p>
+	<p>TRACK AN ORDER</p>
+	<p>GIFT CARDS & MERCHANDISE CREDIT</p>
+	<p>CUSTOMER SERVICE</p>
+	<p>STUDENT DISCOUNT</p>
+	
 </div>
 </body>
 </html>
