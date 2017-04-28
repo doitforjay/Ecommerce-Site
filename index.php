@@ -36,7 +36,7 @@ if($productCount > 0){
 <h3 id="shadow1"> All Shorts BOGO 50% Off</h3>
 <div align="center" id="wrapper">
 	<?php include_once("header.php"); ?>
-	<h3 id="shadow1"> Limited time only:Free Shipping</h3>
+	<h3 id="shadow1"> Limited time only: Free Shipping</h3>
 	<div id="main">
 		<table width="100%" border='0' cellpadding="10">
 			<tr>
