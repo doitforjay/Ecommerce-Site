@@ -69,7 +69,11 @@ if($productCount > 0){
 	<p>FOR TWO </p>
 
 </div>
-<div>
+<p id="end">ORDER ONLINE<br> & PICK UP IN STORE<br>
+<button id="button button3">learn more</button></br></p>
+
+
+<div id="extra">
 	<p>NEED HELP?</p> 
 	<p>SIZE CHARTS</p>
 	<p>ORDER HELP</p>
