@@ -17,6 +17,5 @@ $sql = "CREATE TABLE admin (
 }
 
 $conn->close();
-//INSERT INTO `akonduru2`.`admin` (`id`, `username`, `password`, `last_log_date`) VALUES ('1', 'admin', 'admin', '2017-04-27');
-?>
 
+?>

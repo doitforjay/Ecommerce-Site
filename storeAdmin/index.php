@@ -30,7 +30,8 @@ if($existCount == 0){
 	<div id="main"> <br/>
 		<div align="left" style="margin-left: 24px;"> Hello admin, what would you like to do today? <br/>
 		<a href="inventory_list.php"> Manage inventory</a> <br/>
-		<a href=""> Mangage something else </a>
+		<a href=""> Mangage something else </a><br/>
+		<a href="logout.php">Log out</a>
 		 </div>
 	</div>
 	<?php include_once("../header.php"); ?>
