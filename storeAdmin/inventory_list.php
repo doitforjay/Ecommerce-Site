@@ -1,4 +1,5 @@
 <?php
+ob_start();
 session_start();
 
 if(!isset($_SESSION["manager"])){
@@ -18,11 +19,6 @@ if($existCount == 0){
 	echo $sql;
 	exit();
 }
-?>
-
-<?php
-error_reporting(E_ALL);
-ini_set('display_errors', '1');
 ?>
 
 <?php
@@ -46,7 +42,7 @@ if(isset($_POST['product_name'])){
 
 	$newname = "$pid.jpg";
 	move_uploaded_file($_FILES["fileField"]['temp_name'], "../inventory_images/$newname");
-	header("loction: inventory_list.php");
+	header("location: inventory_list.php");
 	exit();
 }
 
@@ -74,7 +70,7 @@ if($productCount > 0){
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style/style.css">
+<link rel="stylesheet" type="text/css" href="../style/style.css">
 	<title> inv List</title>
 </head>
 <body>

@@ -54,35 +54,32 @@ INSERT INTO users (user_id,uname,password,fname,lname)
 VALUES ('3','heenali','heenali','Heenali','Patel');
 
 
-INSERT INTO products (product_id,product_name,price,category,sub_category,details)
-VALUES ('1','V-Neck Easy Graphic Tee','8.48','Girls','Graphic Tees','pretty');
+INSERT INTO products (product_name,price,category,sub_category,details)
+VALUES ('V-Neck Easy Graphic Tee','8.48','Girls','Graphic Tees','pretty');
 
-INSERT INTO products (product_id,product_name,price,category,sub_category,details)
-VALUES ('2','Stretch Jersey Polo','29.95','Guys','Polos','ummm');
+INSERT INTO products (product_name,price,category,sub_category,details)
+VALUES ('Stretch Jersey Polo','29.95','Guys','Polos','ummm');
 
-INSERT INTO products (product_id,product_name,price,category,sub_category,details)
-VALUES ('3','Low-Rise Chino Shorts','$34.95','Girls','Shorts','whatever');
+INSERT INTO products (product_name,price,category,sub_category,details)
+VALUES ('Low-Rise Chino Shorts','$34.95','Girls','Shorts','whatever');
 
-INSERT INTO products (product_id,product_name,price,category,sub_category,details)
-VALUES ('4','Low-Rise Crop Skinny Jeans','$35.97','Girls','Jeans','They are great');
+INSERT INTO products (product_name,price,category,sub_category,details)
+VALUES ('Low-Rise Crop Skinny Jeans','$35.97','Girls','Jeans','They are great');
 
-INSERT INTO `akonduru2`.`products` (`product_id`, `product_name`, `price`, `category`, `sub_category`, `details`)
-VALUES ();
+INSERT INTO products (product_name,price,category,sub_category,details)
+VALUES ('Slim Straight Jeans','$24.95','Guys','Jeans','they alright');
 
-INSERT INTO products (product_id,product_name,price,category,sub_category,details)
-VALUES ('5','Slim Straight Jeans','$24.95','Guys','Jeans','they alright');
+INSERT INTO products (product_name,price,category,sub_category,details)
+VALUES ('V-Neck Icon Sweater','$39.95','Guys','Sweaters','cute');
 
-INSERT INTO products (product_id,product_name,price,category,sub_category,details)
-VALUES ('6','V-Neck Icon Sweater','$39.95','Guys','Sweaters','cute');
+INSERT INTO products (product_name,price,category,sub_category,details)
+VALUES ('Twill Jogger Pants','$49.95','Guys','Joggers','they are good');
 
-INSERT INTO products (product_id,product_name,price,category,sub_category,details)
-VALUES ('7','Twill Jogger Pants','$49.95','Guys','Joggers','they are good');
+INSERT INTO products (product_name,price,category,sub_category,details)
+VALUES ('T-Shirt Dress','$29.95','Girls','Dresses','pretty cute');
 
-INSERT INTO products (product_id,product_name,price,category,sub_category,details)
-VALUES ('8','T-Shirt Dress','$29.95','Girls','Dresses','pretty cute');
+INSERT INTO products (product_name,price,category,sub_category,details)
+VALUES ('Graphic Banded Sweatpants','$25','Girls','Sweatpants','comfy');
 
-INSERT INTO products (product_id,product_name,price,category,sub_category,details)
-VALUES ('9','Graphic Banded Sweatpants','$25','Girls','Sweatpants','comfy');
-
-INSERT INTO products (product_id,product_name,price,category,sub_category,details)
-VALUES ('10','Fit Denim Shorts','$30.95','Guys','Shorts','lads');
+INSERT INTO products (product_name,price,category,sub_category,details)
+VALUES ('Fit Denim Shorts','$30.95','Guys','Shorts','lads');

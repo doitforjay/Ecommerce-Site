@@ -23,15 +23,15 @@ if($productCount > 0){
         </tr>
       </table>';
 
-      if($i % 4 == 0){
+      if($i % 6 == 0){
       	$dynamicTable .= '<tr>
-          <td width="330px" valign="top"><a href="product.php?id=' . $id . '"><img style="border:#666 1px solid;" src="inventory_images/' . $id . '.jpg" alt="' . $product_name . '" width="77" height="102" border="1" /></a></td>
-          <td width="1970px" valign="top">' . $product_name . '<br />
+          <td width="30%" valign="top"><a href="product.php?id=' . $id . '"><img style="border:#666 1px solid;" src="inventory_images/' . $id . '.jpg" alt="' . $product_name . '" width="77" height="102" border="1" /></a></td>
+          <td width="70%" valign="top">' . $product_name . '<br />
             $' . $price . '<br />
             <a href="product.php?id=' . $id . '">View Product Details</a></td>';
       } else {
-      	$dynamicTable .= '<td width="1970px" valign="top"><a href="product.php?id=' . $id . '"><img style="border:#666 1px solid;" src="inventory_images/' . $id . '.jpg" alt="' . $product_name . '" width="77" height="102" border="1" /></a></td>
-          <td width="470px" valign="top">' . $product_name . '<br />
+      	$dynamicTable .= '<td width="30%" valign="top"><a href="product.php?id=' . $id . '"><img style="border:#666 1px solid;" src="inventory_images/' . $id . '.jpg" alt="' . $product_name . '" width="77" height="102" border="1" /></a></td>
+          <td width="70%" valign="top">' . $product_name . '<br />
             $' . $price . '<br />
             <a href="product.php?id=' . $id . '">View Product Details</a></td>';
       } 

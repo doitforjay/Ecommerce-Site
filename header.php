@@ -11,7 +11,7 @@
 			<td colspan="2">
 			 <ul>
   <li><a class="active" href="index.php">Home</a></li>
-  <li><a href="product_list.php">Products</a></li>
+  <li><a href="../product_list.php">Products</a></li>
   <li><a href="#link2">Contact</a></li>
   <li><a href="#link3">Help</a></li>
 </ul></td>

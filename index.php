@@ -3,7 +3,7 @@
 date_default_timezone_set('America/New_York');
 include "Scripts/connect_to_php.php";
 $dynamicList ="";
-$sql = mysqli_query($conn,"SELECT * FROM products ORDER BY date_added DESC LIMIT 6");
+$sql = mysqli_query($conn,"SELECT * FROM products ORDER BY id DESC LIMIT 6");
 $productCount = mysqli_num_rows($sql);
 if($productCount > 0){
 	while($row = mysqli_fetch_array($sql)){

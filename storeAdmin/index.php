@@ -22,7 +22,7 @@ if($existCount == 0){
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
 
 	<title>store admin</title>
 	
