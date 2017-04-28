@@ -20,7 +20,27 @@ if($existCount == 0){
 	exit();
 }
 ?>
-
+<?php 
+// Delete Item Question to Admin, and Delete Product if they choose
+if (isset($_GET['deleteid'])) {
+	echo 'Do you really want to delete product with ID of ' . $_GET['deleteid'] . '? <a href="inventory_list.php?yesdelete=' . $_GET['deleteid'] . '">Yes</a> | <a href="inventory_list.php">No</a>';
+	exit();
+}
+if (isset($_GET['yesdelete'])) {
+	// remove item from system and delete its picture
+	// delete from database
+	$id_to_delete = $_GET['yesdelete'];
+	$sql = mysqli_query($conn,"DELETE FROM products WHERE id='$id_to_delete' LIMIT 1") or die (mysql_error());
+	// unlink the image from server
+	// Remove The Pic -------------------------------------------
+    $pictodelete = ("../inventory_images/$id_to_delete.jpg");
+    if (file_exists($pictodelete)) {
+       		    unlink($pictodelete);
+    }
+	header("location: inventory_list.php"); 
+    exit();
+}
+?>
 <?php
 date_default_timezone_set('America/New_York');
 include "../Scripts/connect_to_php.php";
@@ -57,7 +77,7 @@ if($productCount > 0){
 		$id = $row["id"];
 		$product_name = $row["product_name"];
 		$date_added = date("Y/m/d", strtotime($row["date_added"]));
-		$productList .= "$date_added - $id - $product_name &nbsp; &nbsp; <a href='inventory_edit.php?pid='$id'>edit</a> &bull; <a href='inventory_delete.php?pid='$id'>delete</a><br/>";
+		$productList .= "Product ID: $id - <strong>$product_name</strong> - $$price - <em>Added $date_added</em> &nbsp; &nbsp; &nbsp; <a href='inventory_edit.php?pid=$id'>edit</a> &bull; <a href='inventory_list.php?deleteid=$id'>delete</a><br />";
 	}
 	
 }else{

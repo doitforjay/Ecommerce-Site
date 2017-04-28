@@ -3,6 +3,7 @@
 // Written by Adam Khoury January 01, 2011
 // http://www.youtube.com/view_play_list?p=442E340A42191003
 session_start();
+date_default_timezone_set('America/New_York');
 if (!isset($_SESSION["manager"])) {
     header("location: admin_login.php"); 
     exit();

@@ -86,6 +86,7 @@ if($productCount > 0){
 	<p>GIFT CARDS & MERCHANDISE CREDIT</p>
 	<p>CUSTOMER SERVICE</p>
 	<p>STUDENT DISCOUNT</p>
+	<p><a href="../storeAdmin/admin_login.php"> Admin Login</a></p>
 </div>
 
 </body>
