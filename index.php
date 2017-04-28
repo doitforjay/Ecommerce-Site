@@ -44,7 +44,7 @@ if($productCount > 0){
       <h4><p id="quote">Our most covetable tees, tanks, polos, and more, featuring irresistible patterns and prints and eye-catching details. Wear them your way. Break the rules. Be you. <br/>
       <h6><p align="center">Select styles. Prices as marked.</p></h6>
         </td>
-		<td width="53%" valign="top">Newest  items added<p><?php echo $dynamicList ?></p>
+		<td width="53%" valign="top">Recent items added:<p><?php echo $dynamicList ?></p>
 		</td>
 
 	</tr>
